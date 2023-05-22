@@ -12,6 +12,7 @@ app.use(express.json());
 // import routes
 const usersRoute = require('./v1/Routes/users.route');
 const instructorsRoute = require('./v1/Routes/instructors.route');
+const beinstructorRoute = require('./v1/Routes/beinstructor.route');
 
 
 
@@ -19,6 +20,7 @@ const instructorsRoute = require('./v1/Routes/instructors.route');
 // declare routes
 app.use('/api/v1/users', usersRoute);
 app.use('/api/v1/instructors', instructorsRoute);
+app.use('/api/v1/beinstructor', beinstructorRoute);
 
 
 
