@@ -14,6 +14,7 @@ const usersRoute = require('./v1/Routes/users.route');
 const instructorsRoute = require('./v1/Routes/instructors.route');
 const beinstructorRoute = require('./v1/Routes/beinstructor.route');
 const contactsRoute = require('./v1/Routes/contacts.route');
+const hiresRoute = require('./v1/Routes/hires.route');
 
 
 
@@ -23,6 +24,7 @@ app.use('/api/v1/users', usersRoute);
 app.use('/api/v1/instructors', instructorsRoute);
 app.use('/api/v1/beinstructor', beinstructorRoute);
 app.use('/api/v1/contacts', contactsRoute);
+app.use('/api/v1/hires', hiresRoute);
 
 
 
